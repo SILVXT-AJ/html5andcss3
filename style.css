@@ -1,0 +1,31 @@
+@font-face {
+    src: url(fonts/AGENCYB.TTF);
+    font-family: agency ;
+}
+@font-face {
+    src: url(fonts/coolvetica\ rg.otf);
+    font-family: cinzel ;
+}@font-face {
+    src: url(fonts/Centrion\ Variable.ttf);
+    font-family: centrion ;
+}
+@font-face {
+    src: url(fonts/Magazine-Bold.ttf);
+    font-family: centrion ;
+}
+body{
+    background-color: beige;
+}
+.Side{
+    font-family: agency ;
+    font-weight: normal;
+    font-variant: small;
+    color: rgb(255, 65, 65) ;
+}
+h1{
+    font-family: cinzel ;
+    font-weight: normal;
+    font-style: italic;
+    font-variant: bold;
+    color: rgb(238, 163, 1);
+}
