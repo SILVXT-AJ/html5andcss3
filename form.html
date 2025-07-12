@@ -9,24 +9,24 @@
         <title>Silvest AJ Website</title>
     </head>
     <body>
-        <h1>This Silvest AJ's Website</h1>
+        <h1 align="center">This Silvest AJ's Website</h1>
         <hr>
 
         <form action="form.php" method="POST">
             <label for="UserName" class="Side"> UserName : </label>
-            <input type="text" id="UserName" placeholder="Enter your UserName" minlength="6">
+            <input type="text" id="UserName" placeholder="Enter your UserName" minlength="6" class="boxbg">
             <br>
             <label for="Password" class="Side"> Password : </label>
-            <input type="password" id="Password" placeholder="Enter your PW" minlength="6">  
+            <input type="password" id="Password" placeholder="Enter your PW" minlength="6"class="boxbg">  
             <br>
             <label for="Date" class="Side">BirthDate : </label>
-            <input type="date" id="Date" name="Date">
+            <input type="date" id="Date" name="Date" class="boxbg">
             <br>
             <label for="Email" class="Side"> Email :  </label>
-            <input type="email" id="Email" placeholder="silvest43n85@gmail.com" >
+            <input type="email" id="Email" placeholder="silvest43n85@gmail.com"class="boxbg" >
             <br>
             <label for="Phone" class="Side"> Phone : </label>
-            <input type="tel" id="Phone" placeholder="78945-45612" pattern="[0-9]{5} - [0-9]{5}">
+            <input type="tel" id="Phone" placeholder="78945-45612" pattern="[0-9]{5} - [0-9]{5}"class="boxbg">
             <br>
             <label for="title" class="Side"> Title : </label>
 
@@ -36,12 +36,13 @@
             <input type="radio" id="Mrs." name="title">
             <label for="Phd."> Phd. </label>
             <input type="radio" id="Phd." name="title">
-            <label for="Dr."> Dr. </label>
+            <label for=" Dr."> Dr. </label>
             <input type="radio" id="Dr." name="title">
             <br>
 
             <label for="Payment" class="Side">Payment :</label>
-            <select>
+            <select> 
+
                 <option value="Visa">Visa</option>
                 <option value="RupayCard">RupayCard</option>
                 <option value="MasterCard">MasterCard</option>
@@ -52,10 +53,12 @@
 
             <label for="file" class="Side">File : </label>
             <input type="file" id="file" accept="image/png, image/jpg">
+            <br>
+            <br>
 
-            <input type="reset">         
+            <input type="reset" >         
             <input type="submit">
-        </form>
+        </form> 
 
 
     </body>

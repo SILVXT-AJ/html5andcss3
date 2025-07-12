@@ -20,12 +20,28 @@ body{
     font-family: agency ;
     font-weight: normal;
     font-variant: small;
-    color: rgb(255, 65, 65) ;
+    color: rgb(255, 123, 0) ;
 }
 h1{
     font-family: cinzel ;
     font-weight: normal;
     font-style: italic;
     font-variant: bold;
-    color: rgb(238, 163, 1);
+    border: 2px solid rgb(255, 123, 0);
+    color: rgb(255, 208, 108);
+    text-shadow: 1px 1px 5px hsl(17, 100%, 60%), 1px 1px 10px hsl(17, 100%, 60%);
+    border-radius: 3px;
+}
+.boxbg{
+   background-color: rgb(255, 213, 151);
+   border-width: 0.5px;
+   border-radius: 3px;
+}
+form{
+    border-top: solid hsl(0, 100%, 50%);
+    border-bottom:  solid hsl(24, 100%, 50%) ;
+    border-left:  double hsl(91, 100%, 50%);
+    border-right:  double hsl(204, 100%, 50%);
+    border-radius: 5px;
+    border-width: 3px;
 }
