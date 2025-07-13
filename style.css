@@ -45,3 +45,7 @@ form{
     border-radius: 5px;
     border-width: 3px;
 }
+#img1{
+    float: right;
+    display: flow-root;
+}
