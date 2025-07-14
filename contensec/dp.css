@@ -1,0 +1,32 @@
+.dropdown{
+    display: inline;
+}
+.dropdown button{
+    background-color: hsl(33, 100%, 88%);
+    border: none;
+    padding: 5px 10px;
+    color: rgb(0, 0, 0);
+    cursor:  pointer;
+}
+.dropdown a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 10px 15px;
+}
+.dropdown .syllabus{
+    position: absolute;
+    background-color: antiquewhite;
+    min-width: 84px;
+    box-shadow: 3px 2px 6px hsla(0, 0%, 0%, 0.651);
+    display: none;
+}
+.dropdown:hover .syllabus{
+    display: block;
+}
+.dropdown:hover button{
+    background-color: hsl(33, 94%, 86%) ;
+}
+.dropdown a:hover{
+    background-color: rgb(241, 227, 206);
+}

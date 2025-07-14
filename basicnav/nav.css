@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+}
+main{
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.nav ul {
+    list-style-type: none;
+    background-color: rgb(2, 19, 51);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.nav a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 15px ;
+    display: block;
+    text-align: center;
+    min-width:  55px;
+    border: 1px solid rgb(0, 54, 153);
+}
+.nav a:hover{
+    background-color: rgb(2, 33, 90);
+    text-decoration: underline;
+}
+.nav li{
+    float: right;
+}
