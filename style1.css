@@ -1,0 +1,22 @@
+a:link{
+    color:brown;
+}
+a:hover{
+    color: rgb(161, 97, 97);
+    text-shadow: hsl(0, 76%, 25%);
+    position: relative;
+    bottom: 2px;
+}
+#hello p{
+    background-color: aqua;
+    padding: 15px;
+    display: none;
+}
+#hello:hover p{
+    display: block;
+}
+h2::selection{
+    color:hsl(0, 0%, 100%);
+    background-color: rgb(53, 160, 163);
+
+}
